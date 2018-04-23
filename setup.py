@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(name='calphad_tdb_ingester',
-    version='2.0.0',
-    url='http://github.com/CitrineInformatics/calphad_tdb_ingester',
+    version='2.0.1',
+    url='http://github.com/CitrineInformatics/calphad-tdb-ingester',
     description='This ingester converts CALPHAD database files (with extension .TDB) into PIFs',
     author='Saurabh Bajaj',
     author_email='saurabh@citrine.io',
