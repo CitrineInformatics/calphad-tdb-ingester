@@ -1,0 +1,13 @@
+# This file describes the converter
+name: calphad_tdb_ingester                      # Any valid python key (should be unique)
+version: auto                                  # Please use 3-number versions
+description: An ingester that converts CALPHAD database files (with extension .TDB) into PIFs. # Any string
+displayName: "Citrine: CALPHAD TDB ingester"
+namespace: "citrine/ingest/tdb"
+
+arguments:                  # These are the arguments for the convert method
+- name: database_name                     # each argument has a name (must be a valid python key)
+  desc: "Unique name of database file"           # and a description (any string)
+  type: String                      # this is the type of the argument (see below)
+  required: true                    # and whether or not the argument is required
+
