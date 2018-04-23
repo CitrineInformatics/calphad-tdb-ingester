@@ -7,7 +7,7 @@ The CALPHAD .TDB ingester is an ingester used for extracting data, about a therm
 To see sample TDB files, see [here](https://github.com/CitrineInformatics/calphad_tdb_ingester/tree/make-public-ready/test_files).
 
 ## Example output dataset
-A sample dataset created by ingesting the two sample files above can be seen [here]().
+A sample dataset created by ingesting the two test files in the repository can be seen [here](https://citrination.com/datasets/157270).
 
 ## Related useful resources
 - [Ingester documentation](http://help.citrination.com/knowledgebase/articles/1834348)
